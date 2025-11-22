@@ -1,0 +1,79 @@
+Команды для регистрации ваших данных
+1) git config --global user.name "your_username"
+2) git config --global user.email "your_username@gmai.com"
+
+
+Команды только для одно проекта
+
+3) git init        | Инициализация Гита
+4) git remote add origin link_to_repository | Добавление репозитория
+
+5) git status      | Статус репозитория
+
+6) git add .       | Добавление файлов в буфер обмена
+7) git commit -m "message" | сохранение всего из буфера обмена
+
+8) git push origin master   | Отправка изменений в репозитории
+
+9) git add hw/hw1.py                  | Для добавления конкретного файла на гитхаб
+10) git commit -m "feat: added hw1.py" | Для сохранения в буфер обмена конкретного файла
+
+
+11) git branch        | Просмотреть все ветки
+12) git branch new_branch   | Создать новую ветку
+13) git checkout new_branch | Переключиться на новую ветку
+    git switch new_branch | Переключиться на новую ветку
+
+14) git restore       | Вернуть файлы в исходное состояние
+15) git reset         | Вернуть файлы в исходное состояние после git add .
+16) git reset --mixed HEAD~1 | Удалить последний коммит и вернуть файлы в исходное состояние
+
+stage
+
+production  - V1.0.0.0
+
+feat/
+fix/
+update/
+hotfix/
+delete/
+
+git commit -m "fix: fixing bug on login page"
+git commit -m "feat: add new feature"
+git commit -m "update: update feature"
+git commit -m "hotfix: fix bug on login page"
+
+git commit -m "hotfix: fix bug on login page"
+
+git merge name_branch
+
+
+
+python
+py           -m venv name_venv
+python3
+
+
+venv_name\Scripts\activate      | Для Wi ndows
+source venv_name/bin/activate   |. Для Mac\Linux
+
+pip freeze              | Покажет всё, что мы скачали
+pip freeze -> requirements.txt  | Создает файл "requirements.txt" и переносит список всего скаченного в тот файл
+pip install -r requirements.txt | С помощью -r он прочитает файл, который мы прописали и скачает всё что там написано
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
